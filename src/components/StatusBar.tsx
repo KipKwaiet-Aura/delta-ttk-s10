@@ -8,8 +8,8 @@ interface StatusBarProps {
 
 const LOG_MESSAGES = [
   'SYS: 连接至烽火地带数据库...',
-  'ARMOR: 4级装甲分析模块就绪',
-  'BALLISTICS: 3级穿甲弹弹道模拟完成',
+  'ARMOR: 装甲分析模块就绪',
+  'BALLISTICS: 穿甲弹弹道模拟完成',
   'CALC: 击杀时间模型初始化成功',
   'READY: 战术数据中心运行中',
   'EDIT: 武器自定义模块已加载',
@@ -65,7 +65,7 @@ const StatusBar: React.FC<StatusBarProps> = ({ weaponCount, customCount }) => {
               className="text-white font-semibold text-[15px] tracking-wider"
               style={{ fontFamily: 'Inter, sans-serif' }}
             >
-              三角洲战术数据中心
+              三角洲咕咕靶场
             </span>
             <span
               className="text-[11px] px-1.5 py-0.5 rounded border font-mono-data"
