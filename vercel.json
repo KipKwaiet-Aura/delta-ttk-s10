@@ -1,4 +1,4 @@
 {
-  "installCommand": "npm install -g yarn && yarn install",
+  "installCommand": "corepack enable && yarn install",
   "buildCommand": "yarn build"
 }
